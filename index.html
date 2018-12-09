@@ -1,12 +1,67 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="zh-tw">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>fuck!</title>
+<meta charset="utf-8">
+<title>CAT HOTE 貓咪旅館</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<link href="css/home.css" rel="stylesheet" type="text/css">
+<script src="js/jquery-1.11.1.min.js" type="text/javascript"></script>
+<script src="js/bootstrap.min.js" type="text/javascript"></script>
+<script src="js/responsiveslides.min.js"></script>
+<script>
+$(function(){
+	$('#slider').responsiveSlides({
+		auto: true,
+		speed: 500,
+		namespace: "callbacks",
+		pager: true
+	})
+})
+</script>
+<meta name="AUTHOR" content="CAT HOTEL 貓咪旅館">
+<meta name="keywords" content="貓咪旅館,貓咪住宿,24H專人照顧,獨立舒適大空間,即時視訊,最自由、友善的,貓咪相關用品販售">
+<meta name="description" content="貓咪旅館為貓咪貝打造舒適、乾淨、放鬆的空間，頂級服務、平價收費，可刷卡，歡迎家長預約參觀。我們擁有多位專業貓奴，為貓咪食衣住行特別把關，奶貓至高齡貓全年齡化專心貓咪住宿服務．讓愛貓享受獨立大套房全日陪伴。 
+">
 </head>
+
 <body>
-    fuck!
-</body>
-</html>
+<div class="slider">
+  <div class="callbacks_container">
+    <ul class="rslides" id="slider">
+      <li> <img src="images/home/home1.png" alt=""/> </li>
+      <li> <img src="images/home/home2.png" alt=""/> </li>
+      <li> <img src="images/home/home3.png" alt=""/> </li>
+    </ul>
+  </div>
+</div>
+<div class="header">
+  <div class="header-top">
+    <div class="logo">
+      <h1><img src="images/home/Logo1.png" alt=""/><a href="index.html">CAT HOTEL</a></h1>
+    </div>
+    <div class="top-nav">
+      <span class="menu"></span>
+      <ul>        
+        <li><a href="webpage/about.html" class="scroll" data-hover="ABOUT">ABOUT</a></li>
+        <li><a href="webpage/cathouse1.html" class="scroll" data-hover="PRODUCTS">PRODUCTS</a></li>
+        <li><a href="webpage/news.html" class="scroll" data-hover="NEWS">NEWS</a></li>
+        <li><a href="webpage/storesGooglemap.html" class="scroll" data-hover="STORES">STORES</a></li>
+        <li><a href="webpage/contact.html" class="scroll" data-hover="CONTACT">CONTACT</a></li>
+      </ul>
+      <script>
+					$("span.menu").click(function(){
+						$(".top-nav ul").slideToggle(500, function(){
+						});
+					});
+      </script> 
+    </div>
+  </div>
+</div>
